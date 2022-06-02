@@ -57,7 +57,7 @@
             const handleScroll = () => {
                 // console.log('scroll event');
                 // console.log(window.pageYOffset)
-                // =>윈도우 전여객체가 가지고 있는 스크롤값 px단위로 가져올수 있음
+                // =>윈도우 전역객체가 가지고 있는 스크롤값 px단위로 가져올수 있음
                 // =>pageYOffset 으로 window생략 가능
 
                 const sct = window.pageYOffset;
@@ -78,6 +78,7 @@
                 // )
                  
                 console.log(window.innerWidth);
+                // =>브라우저의 높이값, 가로값을 px단위로 가져옴
 
             }
 
